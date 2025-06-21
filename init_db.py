@@ -1,7 +1,7 @@
 from tinydb import TinyDB
 
 db = TinyDB("db.json")
-db.truncate()  # очистить старое, если есть
+db.truncate()
 
 # Добавим формы
 db.insert({
